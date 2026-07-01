@@ -156,14 +156,14 @@ export default function Contact() {
                   <p className="font-semibold mb-3 text-sm" style={{ color: '#F5F0E8' }}>
                     Call or WhatsApp
                   </p>
-                  <a href="tel:+919876543210" className="btn-primary text-xs block text-center mb-2">
+                  <a href="tel:+919901090509" className="btn-primary text-xs block text-center mb-2">
                     <span className="flex items-center justify-center gap-2">
                       <Phone size={13} />
                       Call Now
                     </span>
                   </a>
                   <a
-                    href="https://wa.me/919876543210?text=Hi%2C%20I'm%20interested%20in%20your%20uPVC%20doors%20and%20windows"
+                    href="https://wa.me/919901090509?text=Hi%2C%20I'm%20interested%20in%20your%20uPVC%20doors%20and%20windows"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block text-center py-2.5 px-4 rounded text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:opacity-90"
@@ -294,7 +294,7 @@ export default function Contact() {
                           type="tel"
                           value={form.phone}
                           onChange={e => setForm(f => ({ ...f, phone: e.target.value }))}
-                          placeholder="+91 98765 43210"
+                          placeholder="+91 99010 90509"
                           style={inputBase}
                           {...focusHandlers}
                         />
