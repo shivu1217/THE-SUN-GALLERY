@@ -204,7 +204,7 @@ export default function Contact() {
                     Mon – Sat: 9:00 AM – 7:00 PM
                   </p>
                   <p className="text-sm" style={{ color: '#6B6355' }}>
-                    Sunday: 10:00 AM – 4:00 PM
+                    Sunday: Closed
                   </p>
                 </div>
               </div>
